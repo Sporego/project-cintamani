@@ -6,76 +6,78 @@ function Home() {
   return (
     <div className="Home">
         <div className="container">
-            <div className="row">
+            <div className="row py-2">
+                <div className="col-md-9 video-container">
+                    <iframe width="660" height="400" src="https://www.youtube.com/embed/tj1LKE8fGZs?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="col-md-3">
+                    <div className="jumbotron jumbotron h-100">
+                        <div className="container">
+                            <h1 className="display-4">Text</h1>
+                            <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptas libero repellendus tenetur, maxime commodi nisi laboriosam hic sequi iste provident facilis, modi quam excepturi laudantium eos nemo! Illum, beatae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row py-2">
+                <div className="col-md-6">
+                    <div className="jumbotron jumbotron">
+                        <div className="container">
+                            <h1 className="display-4">Fluid jumbotron</h1>
+                            <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis, nobis sint laudantium maxime rerum error odit dignissimos impedit, quaerat tempore. Nostrum amet voluptate veniam accusamus sed nemo quo accusantium!</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="jumbotron jumbotron">
+                        <div className="container">
+                            <h1 className="display-4">Fluid jumbotron</h1>
+                            <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore magnam dolore in delectus? Doloremque corrupti ullam ea quia molestiae, reprehenderit laudantium, quo modi harum neque dolorum ducimus itaque facere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row py-2">
                 <div className="col-md-12">
-                    <div className="jumbotron jumbotron-fluid">
-                        <div className="container">
-                            <h1 className="display-4">Fluid jumbotron</h1>
-                            <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Issues</h5>
+                            <h1>Eric Adams on the issues.</h1>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="jumbotron jumbotron-fluid">
-                        <div className="container">
-                            <h1 className="display-4">Fluid jumbotron</h1>
-                            <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                        </div>
+            <div className="row py-2">
+                <div className="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100" src={require('./assets/img/backgrounds/1.jpg')} alt="First slide"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src={require('./assets/img/backgrounds/2.jpg')} alt="Second slide"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src={require('./assets/img/backgrounds/3.jpg')} alt="Third slide"/>
                     </div>
                 </div>
-                <div className="col-md-6">
-                    <div className="jumbotron jumbotron-fluid">
-                        <div className="container">
-                            <h1 className="display-4">Fluid jumbotron</h1>
-                            <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                        </div>
-                    </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
                 </div>
-            </div>
-
-            <div className="row">
-                <div className="top-content">
-                    <div className="container-fluid">
-                        <div id="carousel-example" className="carousel slide" data-ride="carousel">
-                            <div className="carousel-inner row w-100 mx-auto" role="listbox">
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-                                    <img src={require('./assets/img/backgrounds/1.jpg')} className="img-fluid mx-auto d-block" alt="img1"/>
-                                </div>
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <img src={require('./assets/img/backgrounds/2.jpg')} className="img-fluid mx-auto d-block" alt="img2"/>
-                                </div>
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <img src={require('./assets/img/backgrounds/3.jpg')} className="img-fluid mx-auto d-block" alt="img3"/>
-                                </div>
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <img src={require('./assets/img/backgrounds/4.jpg')} className="img-fluid mx-auto d-block" alt="img4"/>
-                                </div>
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <img src={require('./assets/img/backgrounds/5.jpg')} className="img-fluid mx-auto d-block" alt="img5"/>
-                                </div>
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <img src={require('./assets/img/backgrounds/6.jpg')} className="img-fluid mx-auto d-block" alt="img6"/>
-                                </div>
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <img src={require('./assets/img/backgrounds/7.jpg')} className="img-fluid mx-auto d-block" alt="img7"/>
-                                </div>
-                                <div className="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <img src={require('./assets/img/backgrounds/8.jpg')} className="img-fluid mx-auto d-block" alt="img8"/>
-                                </div>
-                            </div>
-                            <a className="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Previous</span>
-                            </a>
-                            <a className="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
