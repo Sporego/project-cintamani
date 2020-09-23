@@ -22,9 +22,9 @@ function NavBar() {
 
                     <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
                         <div class="navbar-nav">
-                            <NavLink className='nav-link font-weight-bold h-100 mt-1 px-3' activeClassName='nav-link active' to='/about'>About</NavLink>
-                            <NavLink className='nav-link font-weight-bold h-100 mt-1 px-3' activeClassName='nav-link active' to='/issues'>Issues</NavLink>
-                            <NavLink className='nav-link font-weight-bold h-100 mt-1 px-3' activeClassName='nav-link active' to='/get-involved'>Get-involved</NavLink>
+                            <NavLink className='nav-link font-weight-bold h-100 mt-1 px-3 text-primary' activeClassName='nav-link active text-primary' to='/about'>About</NavLink>
+                            <NavLink className='nav-link font-weight-bold h-100 mt-1 px-3 text-primary' activeClassName='nav-link active text-primary' to='/issues'>Issues</NavLink>
+                            <NavLink className='nav-link font-weight-bold h-100 mt-1 px-3 text-primary' activeClassName='nav-link active text-primary' to='/get-involved'>Get-involved</NavLink>
                             <div className='d-lg-block d-none ml-3 nav-item mr-3'>
                                 <a class="btn btn-info btn-lg" href="https://www.nycvotes.org/campaigns/ericadams/contributions/new">Donate</a>
                             </div>

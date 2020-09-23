@@ -13,6 +13,20 @@ $container-max-widths: (
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.bgc-blue {
+//https://coolors.co/ffffff-e71d36-17a2b8-26547c-113e88
+//Colors Right to Left
+.bgc-1 {
+    background-color: #0A2458;
+};
+.bgc-2 {
     background-color: #113E88;
-}
+};
+.bgc-3 {
+    background-color: #17A2B8;
+};
+.bgc-4 {
+    background-color: #FFFFFF;
+};
+.bgc-5 {
+    background-color: #E71D36;
+};
