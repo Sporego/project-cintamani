@@ -7,14 +7,14 @@ function Home() {
     <div className="Home">
         <div className="container">
             <div className="row py-2">
-                <div className="col-md-9 video-container">
+                <div className="col-md-9 video-container rounded">
                     <iframe width="660" height="400" src="https://www.youtube.com/embed/tj1LKE8fGZs?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div className="col-md-3">
-                    <div className="jumbotron jumbotron h-100">
-                        <div className="container">
-                            <h1 className="display-4">Text</h1>
-                            <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptas libero repellendus tenetur, maxime commodi nisi laboriosam hic sequi iste provident facilis, modi quam excepturi laudantium eos nemo! Illum, beatae.</p>
+                <div className="col-md-3 d-flex flex-column justify-content-around">
+                    <div className="card">
+                        <div className="card-body bg-gradient-info">
+                            <h2>Statement</h2>
+                            <div className="p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium repellendus dolor aspernatur molestiae in tenetur nemo! Alias delectus repellendus maiores vitae facere odio modi quas voluptatum dolores, enim sequi?</div>
                         </div>
                     </div>
                 </div>
