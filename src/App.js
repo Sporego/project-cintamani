@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer'
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 
 import Home from './Home'
@@ -18,6 +19,7 @@ function App() {
           <Route path='/Issues' component={Issues}/>
           <Route path='/get-involved' component={GetInvolved}/>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
