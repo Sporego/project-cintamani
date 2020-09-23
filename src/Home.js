@@ -8,10 +8,10 @@ function Home() {
         <section className='bg-light w-100'>
             <div className="container">
                 <div className="row py-3">
-                    <div className="col-lg-9 video-container rounded-lg">
-                        <iframe width="660" height="300" src="https://www.youtube.com/embed/tj1LKE8fGZs?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div className="col-lg-7 video-container rounded-lg">
+                        <iframe width="320" height="240" src="https://www.youtube.com/embed/tj1LKE8fGZs?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div className="col-lg-3 d-flex flex-column justify-content-end">
+                    <div className="col-lg-5 d-flex flex-column justify-content-end">
                         <div className="card border-0 pt-3">
                             <div className="card-body bg-gradient-info bgc-2 rounded-lg text-white">
                                 <h2>Statement</h2>
